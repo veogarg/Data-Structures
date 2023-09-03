@@ -15,3 +15,4 @@ class CountTheDigit {
         return res;
     }
 }
+// Time Complexity => ø(d), where d is no. of digits
