@@ -1,9 +1,9 @@
 package Mathematics;
 
-public class Pallindrome {
+public class Palindrome {
     public static void main(String[] args) {
         int number = 45654;
-        Pallindrome isPallindrome = new Pallindrome();
+        Palindrome isPallindrome = new Palindrome();
         System.out.println(number);
         System.out.println(isPallindrome.isPallindrome(number));
     }
