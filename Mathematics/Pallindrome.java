@@ -1,3 +1,5 @@
+package Mathematics;
+
 public class Pallindrome {
     public static void main(String[] args) {
         int number = 45654;

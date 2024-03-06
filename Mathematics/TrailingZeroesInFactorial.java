@@ -1,3 +1,5 @@
+package Mathematics;
+
 public class TrailingZeroesInFactorial {
     public static void main(String[] args) {
         TrailingZeroesInFactorial TrailingZeroes = new TrailingZeroesInFactorial();

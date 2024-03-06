@@ -1,3 +1,5 @@
+package Mathematics;
+
 class CountTheDigit {
     public static void main(String[] args) {
         int number = 123;

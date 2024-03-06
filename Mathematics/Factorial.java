@@ -1,18 +1,20 @@
+package Mathematics;
+
 public class Factorial {
     public static void main(String[] args) {
-        int number = 12;
-        Factorial Factorial = new Factorial();
+        int number = 6;
+        // Factorial Factorial = new Factorial();
 
         System.out.println(number);
         System.out.println("***********Iterative Solution***********");
-        System.out.println(Factorial.IterativeFactorial(number));
+        System.out.println(IterativeFactorial(number));
 
         System.out.println(number);
         System.out.println("***********Recursive Solution***********");
-        System.out.println(Factorial.RecursiveFactorial(number));
+        System.out.println(RecursiveFactorial(number));
     }
 
-    public long IterativeFactorial(int n) {
+    public static long IterativeFactorial(int n) {
         int res = 1;
         for (int i = 2; i <= n; i++) {
             res = res * i;
@@ -20,7 +22,7 @@ public class Factorial {
         return res;
     } // Complexity: ø(n)
 
-    public long RecursiveFactorial(int n) {
+    public static long RecursiveFactorial(int n) {
         if (n == 0 || n == 1) {
             return 1;
         }
